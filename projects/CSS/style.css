@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#info-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #252525;
+    flex-wrap: wrap-reverse;
+}
+#info-contain img{
+    margin: 50px;
+    width: 30%;
+}

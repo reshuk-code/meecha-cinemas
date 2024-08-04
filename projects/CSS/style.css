@@ -156,16 +156,12 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
   
 }
-nav{
-    position:fixed;
-}
 #movies{
     display: flex;
     align-items: center;
     justify-content: center;
   flex-direction: row;
   width:auto;
-  position: fixed;
   
   
 }
@@ -178,11 +174,10 @@ nav{
 } 
 @media only screen and (max-width:1000px) {
  #movies{
-    display: block;
-    flex-direction: column-reverse;
+    display: flex;
+    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
-    margin: 50px;
   
 }
 

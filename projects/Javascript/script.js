@@ -9,14 +9,9 @@
 //     alert(value);
 //     // or you can use alert(value) to display it in an alert box
 //   }
-// var random = Math.floor(Math.random()*100000);
-// document.querySelector("#RandomNum").innerHTML = `${random} The site is under consturction`;
+var random = Math.floor(Math.random()*100000);
+document.querySelector("#RandomNum").innerHTML = `${random} The site is under consturction`;
 
-// document.getElementById("SearchButton");
-// var inputEL = document.getElementById("search")
-// function onClick(){
-//     console.log(inputEL)
-// }
 let slideIndex = 1;
 showSlides(slideIndex);
 
